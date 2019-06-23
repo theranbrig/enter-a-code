@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Home = props => {
-  const code = '4353452';
+  const code = '46992';
   const [enterCode, setEnterCode] = useState('');
   return (
     <div className="center-div">
