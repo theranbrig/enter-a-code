@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .App-logo {
@@ -21,6 +22,93 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.center-div,
+.fail-center-div,
+.success-center-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.center-div {
+  background: black;
+}
+
+.fail-center-div {
+  background: tomato;
+}
+
+.success-center-div {
+  background: chartreuse;
+}
+
+.success-center-div h1,
+.success-center-div h2 {
+  color: black;
+}
+
+.success-center-div h2 {
+  width: 80%;
+  margin-left: 10%;
+}
+
+ a {
+  color: darkblue;
+}
+
+h1,
+h2,
+button,
+a,
+input {
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  color: white;
+}
+
+a {
+
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.button-area {
+  margin-top: 30px;
+}
+
+button {
+  font-size: 2rem;
+  padding: 20px;
+  background: black;
+  color: greenyellow;
+  border: 3px solid greenyellow;
+  width: 80%;
+}
+
+input {
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+  background: black;
+  color: yellowgreen;
+  border: 3px solid greenyellow;
+  width: 80%;
+}
+
+h1 {
+  color: white;
 }
 
 @keyframes App-logo-spin {
